@@ -4,6 +4,7 @@ int main(void) {
 	while(!WindowShouldClose()) {
 		BeginDrawing();
 		ClearBackground(RAYWHITE);
+		DrawRectangle(200, 400, 10, 10, RED);
 		EndDrawing();
 	}
 	CloseWindow();
