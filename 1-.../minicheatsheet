@@ -1,3 +1,0 @@
-DrawRectangle(int posX, int posY, width, height, Color color);
-ex:DrawRectangle(0,0,1,1,WHITE);
-
